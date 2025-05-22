@@ -1,0 +1,25 @@
+# Entferne alle Mail Aliase mit @domain.xx von allen Benutzern einer spezifischen OU 
+
+Import-Module ActiveDirectory
+
+# Parameter anpassen
+$OU = "OU=Stationaer,OU=_Mitarbeiter,OU=Benutzer,OU=Eulachtal,DC=eulachtal,DC=zh"  # OU anpassen
+$DomainToRemove = "@spitex-eulachtal.ch"         # Domain anpassen
+
+# Alle Benutzer aus der spezifischen OU abrufen
+$Users = Get-ADUser -Filter * -SearchBase $OU -Properties ProxyAddresses
+
+foreach ($User in $Users) {
+    $UpdatedProxyAddresses = @()
+    
+    if ($User.ProxyAddresses) {
+        # Entferne alle ProxyAddresses mit der spezifischen Domain
+        $UpdatedProxyAddresses = $User.ProxyAddresses | Where-Object { $_ -notlike "*${DomainToRemove}" }
+        
+        # Falls Änderungen vorhanden sind, aktualisiere den Benutzer
+        if ($UpdatedProxyAddresses.Count -ne $User.ProxyAddresses.Count) {
+            Set-ADUser -Identity $User.DistinguishedName -Replace @{ProxyAddresses=$UpdatedProxyAddresses}
+            Write-Host "Bereinigt: $($User.SamAccountName)"
+        }
+    }
+}

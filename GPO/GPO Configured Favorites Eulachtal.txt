@@ -1,0 +1,32 @@
+# GPO Configured Favorites Eulachtal
+
+
+# Verion 4
+
+
+[{"toplevel_name":"Eulachtal"},{"children":[{"name": "WiKi","url":"https://support.eulachtal.ch:9443/helpdesk/knowledgebase.php"},{"name":"IT Support","url": "https://support.eulachtal.ch:9443/"},{"name":"MyAbacus","url": "https://abacus.eulachtal.ch:444/oauth/oauth2/v1/auth?response_type=code&client_id=myabacus&redirect_uri=%2Fportal%2Fmyabacus%2Foauthcb&scope=abacus+openid&state=8KYDM8420MBJK4SH&response_mode=form_post"},{"name":"Extranet","url": "https://www.extranet.eulachtal.ch/"},{"name":"Eulachtal Web","url": "https://www.eulachtal.ch/"}],"name":"Allgemeine Seiten"},{"children":[{"name": "Life Stage Shop","url":"https://shop.lifestage-solutions.ch/shop"},{"name":"Spitex-Eulachtal Web","url": "https://www.spitex-eulachtal.ch/"}],"name":"Berufsausbildung Links"},{"children":[{"name": "Life Stage Shop","url":"https://shop.lifestage-solutions.ch/shop"},{"name":"Spitex-Eulachtal Web","url": "https://www.spitex-eulachtal.ch/"}],"name":"Ambulante Links"},{"children":[{"name": "BesaCare","url":"http://besa.eulachtal.zh:81/besa/"},{"name":"CareCoach","url": "http://carecoach.eulachtal.zh:7070/"}],"name":"Stationär Links"}]
+
+
+# Verion 3
+
+
+[{"toplevel_name":"Eulachtal"},{"children":[{"name": "WiKi","url":"https://support.eulachtal.ch:9443/helpdesk/knowledgebase.php"},{"name":"IT Support","url": "https://support.eulachtal.ch:9443/"},{"name":"MyAbacus","url": "https://abacus.eulachtal.ch:444/oauth/oauth2/v1/auth?response_type=code&client_id=myabacus&redirect_uri=%2Fportal%2Fmyabacus%2Foauthcb&scope=abacus+openid&state=8KYDM8420MBJK4SH&response_mode=form_post"},{"name":"Extranet","url": "https://www.extranet.eulachtal.ch/"},{"name":"Eulachtal Web","url": "https://www.eulachtal.ch/"},{"name":"Home Office","url": "https://homeoffice.eulachtal.ch/"}],"name":"Allgemeine Seiten"},{"children":[{"name": "Life Stage Shop","url":"https://shop.lifestage-solutions.ch/shop"},{"name":"Spitex-Eulachtal Web","url": "https://www.spitex-eulachtal.ch/"}],"name":"Ambulante Links"},{"children":[{"name": "BesaCare","url":"http://besa.eulachtal.zh:81/besa/"},{"name":"CareCoach","url": "http://carecoach.eulachtal.zh:7070/"}],"name":"Stationär Links"}]
+
+
+# Verion 2
+
+
+[{"toplevel_name":"Eulachtal"},{"children":[{"name": "WiKi","url":"https://support.eulachtal.ch:9443/helpdesk/knowledgebase.php"},{"name":"IT Support","url": "https://support.eulachtal.ch:9443/"},{"name":"Extranet","url": "https://www.extranet.eulachtal.ch/"},{"name":"Eulachtal Web","url": "https://www.eulachtal.ch/"}],"name":"Allgemeine Seiten"},{"children":[{"name": "Life Stage Shop","url":"https://shop.lifestage-solutions.ch/shop"},{"name":"Spitex-Eulachtal Web","url": "https://www.spitex-eulachtal.ch/"}],"name":"Ambulante Links"},{"children":[{"name": "BesaCare","url":"http://besa.eulachtal.zh:81/besa/"},{"name":"CareCoach","url": "http://carecoach.eulachtal.zh:7070/"}],"name":"Stationär Links"}]
+
+
+
+# Version 1
+
+
+[{"toplevel_name":"Eulachtal Seiten"},{"name":"BESA","url":"http://besa.eulachtal.zh:81/besa/"},{"name":"Care Coach","url":"http://carecoach.eulachtal.zh:7070/"},{"name":"WiKi","url":"https://support.eulachtal.ch:9443/helpdesk/knowledgebase.php"},{"name":"IT Support","url":"https://support.eulachtal.ch:9443/"},{"name":"Extranet","url":"https://www.extranet.eulachtal.ch/"},{"name":"Eulachtal Web","url":"https://www.eulachtal.ch/"}]
+
+
+# Microsoft Example
+
+
+[{"toplevel_name": "My managed favorites folder"},{"name": "Microsoft","url": "microsoft.com"},{"name": "Bing","url": "bing.com"},{"children": [{"name": "Microsoft Edge Insiders","url": "www.microsoftedgeinsider.com"},{"name": "Microsoft Edge","url": "www.microsoft.com/windows/microsoft-edge"}],"name": "Microsoft Edge links"}]

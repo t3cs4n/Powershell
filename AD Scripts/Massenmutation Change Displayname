@@ -1,0 +1,12 @@
+$users = Import-Csv "C:\Powershell_Importe\RenameSpitexUserTableShortTest.csv"
+
+ForEach ($user in $users) {
+    # Get the user's SAM account name
+    $samAccountName = $user.SamAccountName
+
+    # Get the user's new display name
+    $newDisplayName = $user.DisplayName
+
+    # Set the user's display name
+    Set-ADUser -Identity $samAccountName -DisplayName $newDisplayName
+}

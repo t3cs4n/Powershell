@@ -1,0 +1,1 @@
+﻿Set-ADUser -Identity max.muster -ScriptPath "genKIXTART.exe"

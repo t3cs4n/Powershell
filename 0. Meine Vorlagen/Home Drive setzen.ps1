@@ -1,0 +1,1 @@
+﻿Set-ADUser -Identity "CN=Max Muster,OU=Intern,OU=Benutzer,OU=QBIC,DC=qbic,DC=local" -HomeDirectory \\vDC20\Users$\max.muster -HomeDrive H;
